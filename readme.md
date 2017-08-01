@@ -4,7 +4,6 @@
 
 ### Selectively stop Gravity Forms entries being stored on your web server to comply with privacy and the GDPR.
 
-== Description ==
 Gravity Forms is a wonderful plugin and each form submission is stored on your web server and is accessible through the admin area - which can be great if you have problems with the email address you have setup to receive form submissions.
 
 However, there is no easy way in the admin area to selectively stop entries being stored on your web server, it has to be done in code and is a bit of hassle - this plugin makes it easy to stop this potentially sensitive data being stored.
