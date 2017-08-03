@@ -35,10 +35,10 @@ Alternatively, you can directly upload to your server:
 This plugin does not do anything to the notifications you have setup. Please ensure you have your notifications correctly configured. If you want to double make sure of this, deactivate this plugin and check your email/notifications.
 
 = Does it really stop form submission data being stored anywhere on the server? =
- Yup, the data is temporarily stored for a second or two to dispatch the notification you have setup (I'm afriad that's unavoidable!) then it\'s deleted forever after the notification has triggered.
+ Yup, the data is temporarily stored for a second or two to dispatch the notification you have setup (I'm afriad that's unavoidable!) then it is deleted forever after the notification has triggered.
 
 = I am doing some fancy stuff with Gravity Forms, will this break it?
-It really shouldn\'t - if you are using the Gravity Forms API correctly using the correct action hooks and priorities everything should be fine, but you should ensure that you test your custom functionality after installing this plugin. If you are using data from stored submissions, you will of-course want to keep those submissions and this plugin is not for you obviously!
+It really should not mess with anything if you are using the Gravity Forms API correctly using the correct action hooks and priorities everything should be fine, but you should ensure that you test your custom functionality after installing this plugin. If you are using data from stored submissions, you will of-course want to keep those submissions and this plugin is not for you obviously!
 
 = Aggghhhh, my email has broken or is down and I am not receiving form submissions
 Ah - sadly they are lost then, the whole point of this plugin is to stop form submissions being stored on your server. Sadly, all we can say is please ensure you are using a good quality email service!
@@ -54,6 +54,12 @@ You will need to visit the options page and resave your options again to ensure 
 
 = What happens when I deactivate the plugin?
 Your saved options will be deleted, we don't want to clutter up your options table in your database now do we! If you re-activate the plugin after deactivation, you will need to visit the options page and setup your options again.
+
+== Screenshots ==
+ 
+1. The options screen in the WordPress admin area - find this settings screen under Settings > Gravity Forms Stop Entries.
+ 
+== Changelog ==
 
 == Changelog ==
 = 1.0 =
